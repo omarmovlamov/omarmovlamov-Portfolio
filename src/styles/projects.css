@@ -1,0 +1,116 @@
+.projects {
+  margin-top: -2px;
+  background-color: #242424;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.project-box {
+  background-color: transparent;
+  width: 30%;
+  height: 300px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  margin: 0 10px;
+  transition: 500ms all;
+}
+
+.project-box:hover {
+  border: 1px solid orangered;
+  transform: translateY(-5px);
+}
+
+.all-p img {
+  padding: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.project-links,
+.project-links a {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.project-links a {
+  color: orangered;
+  padding: 5px 15px;
+  border: 1px solid orangered;
+  border-radius: 10px;
+  margin-right: 10px;
+  font-weight: 200;
+  transition: 1s all;
+}
+
+.project-links a:hover {
+  background-color: orangered;
+  color: #fff;
+  border: none;
+  transition: 1s all;
+}
+
+.project-links a p {
+  padding-right: 10px;
+}
+
+.project-title p:nth-child(1) {
+  font-family: "Kanit", sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.project-title p:nth-child(2) {
+  font-family: "Kanit", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 0.6px;
+  color: #ffffff6e;
+}
+
+@media (max-width: 960px) {
+  .projects-row {
+  }
+
+  .project-box {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+
+  .project-links,
+  .project-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 470px) {
+  .all-p img {
+    padding: 10px;
+    width: 225px;
+    height: 155px;
+  }
+  .project-box {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

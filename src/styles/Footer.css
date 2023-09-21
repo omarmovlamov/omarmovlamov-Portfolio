@@ -1,0 +1,94 @@
+/* footer-container, footer-content ve footer-bottom bileşenlerine stil ekleyin */
+.footer-container {
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer-links ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin: 5px 0;
+}
+.footer-social,
+.footer-links {
+  padding-bottom: 10px;
+}
+
+.footer-links a {
+  padding: 0 15px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer-links a:hover {
+  color: rgb(241, 84, 27);
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(241, 84, 27);
+}
+
+.footer-social a {
+  margin-right: 30px;
+  font-size: 20px;
+  color: #fff;
+}
+.footer-social a:hover {
+  color: rgb(241, 84, 27);
+}
+/* footer-bottom bileşenine stil ekleyin */
+.footer-bottom {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+  font-size: 14px;
+  color: #ccc;
+}
+@media (max-width: 575px) and (min-width: 461px) {
+  .footer-container {
+    font-size: 0.8rem;
+    margin: -2px 0;
+    position: relative;
+    background-color: #242424;
+  }
+  .footer-content {
+    max-width: 100%;
+    margin: 0 0;
+    padding: 0 0px;
+  }
+}
+@media (max-width: 460px) {
+  .footer-container {
+    font-size: 0.8rem;
+    margin: -2px 0;
+    position: relative;
+    background-color: #242424;
+  }
+  .footer-content {
+    max-width: 100%;
+    margin: 0 0;
+    padding: 0 10px;
+  }
+  .footer-links ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+}

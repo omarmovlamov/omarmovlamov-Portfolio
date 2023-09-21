@@ -1,0 +1,80 @@
+.row-banner {
+  padding: 0 5rem;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  height: 100dvh !important;
+  font-family: "Kanit", sans-serif;
+}
+.contact-btn {
+  width: 150px;
+}
+.row-banner button {
+  width: 150px;
+  font-weight: 600;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.row-banner button svg {
+  color: rgb(241, 84, 27);
+  margin-left: 10px;
+}
+.row-banner button:hover {
+  border-color: #fff;
+}
+.banner img {
+  margin-left: 200px;
+  width: 30rem;
+}
+.txt-rotate {
+  color: rgb(241, 84, 27);
+}
+.banner-socials {
+  margin-top: 10px;
+  margin-left: 10px;
+  display: none;
+}
+.banner-socials svg {
+  margin: 5px 20px 0 3px;
+  color: #fff;
+}
+.banner-socials svg:hover {
+  margin: 5px 20px 0 3px;
+  color: rgb(241, 84, 27);
+}
+@media (max-width: 1098px) and (min-width: 769px) {
+  .row-banner {
+    padding: 0 1rem 0 3rem;
+    display: flex;
+    align-items: center;
+  }
+  .row-banner img {
+    margin-left: 100px;
+    width: 20rem;
+  }
+}
+
+@media (max-width: 768px) and (min-width: 401px) {
+  .row-banner {
+    padding: 0 1rem 0 2rem;
+  }
+  .row-banner img {
+    display: none;
+  }
+  .banner-socials {
+    display: block;
+  }
+}
+
+@media (max-width: 400px) {
+  .row-banner {
+    padding: 0 3rem 0 1rem;
+  }
+  .row-banner img {
+    display: none;
+  }
+  .banner-socials {
+    display: block;
+  }
+}

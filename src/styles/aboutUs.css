@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,800;0,900;1,700;1,800;1,900&display=swap");
+
+.about-me,
+.about-me-flex,
+.about-me .container {
+  height: 100%;
+}
+
+.about-me {
+  position: relative;
+  background-color: #242424;
+}
+
+.about-me-flex {
+  padding: 0 80px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me .container,
+.about-text,
+.about-img img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img img {
+  width: 350px;
+  -webkit-filter: drop-shadow(1px 1px 0 rgb(0, 0, 0))
+    drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(15px 10px 0 rgb(0, 0, 0)) drop-shadow(-1px -1px 0 black);
+  transition: 0.4s ease-in;
+}
+
+.about-img img:hover {
+  width: 350px;
+  -webkit-filter: drop-shadow(1px 1px 0 rgb(0, 0, 0))
+    drop-shadow(-1px -1px 0 black);
+  filter: drop-shadow(-15px 10px 0 black) drop-shadow(-1px -1px 0 black);
+  transition: 0.4s ease-in;
+}
+
+.about-text {
+  position: relative;
+  margin: 0 100px 0 40px;
+  font-size: 1.3rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+  overflow: hidden;
+}
+
+.about-text div div p:nth-last-child(2),
+.about-text div div p:nth-child(2) {
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.about-text div div p:nth-last-child(2) svg,
+.about-text div div p:nth-child(2) svg {
+  padding-right: 10px;
+  color: rgb(241, 84, 27);
+}
+
+.about-text button {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+}
+
+.about-text button svg {
+  color: rgb(241, 84, 27);
+  margin-left: 10px;
+}
+
+.about-text button:hover,
+.about-text button:hover svg {
+  color: #fff;
+  border-color: #fff;
+  transition: 0.4s ease-in;
+}
+
+.about-text button:hover span {
+  color: rgb(241, 84, 27);
+  border-color: #fff;
+  transition: 0.4s ease-in;
+}
+@media (max-width: 960px) and (min-width: 770px) {
+  .about-me-flex {
+    padding: 0 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 901px) {
+  .about-me-flex {
+    height: 100%;
+    padding: 0 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .about-text {
+    position: relative;
+    margin: 20px 0 0 0;
+    font-size: 1.5rem;
+  }
+
+  .about-img img {
+    width: 400px;
+    -webkit-filter: drop-shadow(1px 1px 0 rgb(0, 0, 0))
+      drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(15px 10px 0 rgb(0, 0, 0)) drop-shadow(-1px -1px 0 black);
+  }
+  .about-img img:hover {
+    width: 400px;
+  }
+
+  @media (max-width: 768px) and (min-width: 516px) {
+    .about-img img {
+      width: 270px;
+    }
+    .about-img img:hover {
+      width: 270px;
+    }
+    .about-me-flex {
+      height: 100%;
+      padding: 0 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  @media (max-width: 515px) and (min-width: 401px) {
+    .about-img img {
+      width: 250px;
+    }
+    .about-img img:hover {
+      width: 250px;
+    }
+    .about-me-flex {
+      height: 100%;
+      padding: 0 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .about-text {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .about-img img {
+      width: 230px;
+    }
+    .about-img img:hover {
+      width: 230px;
+    }
+    .about-me-flex {
+      padding: 0 0px;
+    }
+    .about-text {
+      font-size: 1.1rem;
+    }
+  }
+}

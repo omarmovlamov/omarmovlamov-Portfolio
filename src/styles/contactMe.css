@@ -1,0 +1,93 @@
+.contactMe-container {
+  position: relative;
+  width: 100%;
+  background-color: #242424;
+}
+.contactMe {
+  display: flex;
+}
+.c-left-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.c-left-content h2 {
+  font-size: 3rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+.c-left-content p {
+  text-align: left;
+  font-size: 1.2rem;
+  font-family: "Kanit", sans-serif;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.c-left-content a {
+  color: #fff;
+}
+.c-left-content a:hover {
+  color: rgb(241, 84, 27);
+}
+form {
+  width: 100%;
+  padding: 50px;
+  background-color: #242424;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100% !important;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: none;
+  outline: none;
+}
+input[type="text"]:hover,
+input[type="email"]:hover,
+textarea:hover {
+  border: 1px solid rgb(241, 84, 27);
+}
+
+.contactMe button {
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  background-color: #242424;
+  border: #fff 1px solid;
+  display: flex;
+  align-items: center;
+  font-family: "Kanit", sans-serif;
+}
+.contactMe button i {
+  color: rgb(241, 84, 27);
+  margin-left: 10px;
+}
+.contactMe button:hover {
+  background-color: #4645458a;
+  border-color: #fff;
+}
+
+@media (max-width: 1001px) {
+  .contactMe {
+    flex-direction: column;
+  }
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100% !important;
+  }
+}
