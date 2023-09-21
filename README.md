@@ -1,3 +1,21 @@
+<h1>My Portfolio</h1>
+</br>
+<h2>Link: https://omarmovlamov.netlify.app/</h2>
+
+</br>
+<h2>Technologies Used:</h2>
+<ul>
+<li>React.js</li>
+<li>JavaScript</li>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>animate.css</li>
+<li>react-icons</li>
+<li>react-on-screen</li>
+<li>react-tsparticles</li>
+<li>Emailjs</li>
+</ul>
+</br></br>
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
