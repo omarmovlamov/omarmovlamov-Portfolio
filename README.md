@@ -1,5 +1,4 @@
 <h1>My Portfolio</h1>
-</br>
 <h2>Link : <a href="https://omarmovlamov.netlify.app/" target="blanked">omarmovlamov</a></h2>
 </br>
 <h2>Technologies Used:</h2>
