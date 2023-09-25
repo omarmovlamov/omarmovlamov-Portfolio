@@ -45,6 +45,12 @@ function Projects() {
       previewLink: "https://dexsnews.netlify.app/",
       githubLink: "https://github.com/omarmovlamov/DexsNews",
       description: "Web Development",
+    }, {
+      title: "Discover Technology",
+      imgSrc: "https://i.ibb.co/1bTzwDB/Discover-Tech.png",
+      previewLink: "https://discovertechnology.netlify.app/",
+      githubLink: "https://github.com/omarmovlamov/DiscoverTechnology",
+      description: "Web Development",
     },
   ];
 
