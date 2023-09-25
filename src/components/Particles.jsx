@@ -48,10 +48,10 @@ function ParticlesBackground() {
           },
           particles: {
             color: {
-              value: "#FAFFAD",
+              value: "#fff",
             },
             links: {
-              color: "#FAFFAD",
+              color: "#fff",
               distance: 200,
               enable: true,
               opacity: 0.5,
