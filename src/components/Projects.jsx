@@ -26,6 +26,13 @@ function Projects() {
       description: "Web Development",
     },
     {
+      title: "Discover Technology",
+      imgSrc: "https://i.ibb.co/1bTzwDB/Discover-Tech.png",
+      previewLink: "https://discovertechnology.netlify.app/",
+      githubLink: "https://github.com/omarmovlamov/DiscoverTechnology",
+      description: "Web Development",
+    },
+    {
       title: "Dexs BIKe Project",
       imgSrc: "https://i.ibb.co/0YQPzvN/dexsbikeproject.png",
       previewLink: "https://dexsbike.netlify.app/",
@@ -45,13 +52,7 @@ function Projects() {
       previewLink: "https://dexsnews.netlify.app/",
       githubLink: "https://github.com/omarmovlamov/DexsNews",
       description: "Web Development",
-    }, {
-      title: "Discover Technology",
-      imgSrc: "https://i.ibb.co/1bTzwDB/Discover-Tech.png",
-      previewLink: "https://discovertechnology.netlify.app/",
-      githubLink: "https://github.com/omarmovlamov/DiscoverTechnology",
-      description: "Web Development",
-    },
+    }, 
   ];
 
   return (
