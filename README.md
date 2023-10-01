@@ -1,4 +1,4 @@
-<h1>My Portfolio</h1>
+<h1>My Portfolio Website</h1>
 <h2>Link : <a href="https://omarmovlamov.netlify.app/" target="blanked">omarmovlamov</a></h2>
 <h2>Technologies Used:</h2>
 <ul>
